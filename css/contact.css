@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Play&display=swap');
+
+* {
+	max-width: 980px;
+	margin: auto;
+}
+
+@media (min-width: 320px) {
+	.container-fluid nav {
+	display: flex;
+        align-items: center;
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6, header, div, main, footer, nav, p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+	padding-top: 10px;
+	width: 150;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2rem;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: 'Play', sans-serif;
+	font-size: 1.1em !important;
+}
+
+#gmap_canvas img {
+	max-width: none!important;
+	background: none!important
+}
+
+#contacts {
+	display: flex;
+	background-color: black;
+	margin-top: 10px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	
+}
+.vertical {
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	padding-bottom: 20px;
+}

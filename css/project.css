@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Play&display=swap');
+
+* {
+	max-width: 980px;
+	margin: auto;
+}
+
+@media (min-width: 320px) {
+	.container-fluid nav {
+	display: flex;
+        align-items: center;
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6, header, div, main, footer, nav, p {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 360px) {
+    .top-conteiner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+		margin-bottom: 20px;
+		}
+	}
+@media (min-width: 960px) {
+    .top-conteiner {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 980px) {
+    .top-conteiner {
+    grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.logo {
+	padding-top: 10px;
+	width: 150;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2rem;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: 'Play', sans-serif;
+	font-size: 1.1em !important;
+}
+
+
+
+.top-conteiner .conteiner img {
+	 width: 100%;
+    display: block;
+}
+
+#portfolio {
+	display: flex;
+	background-color: black;
+	margin-top: 10px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	
+}
+

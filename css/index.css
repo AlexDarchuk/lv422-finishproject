@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Play&display=swap');
+
+* {
+	max-width: 980px;
+	margin: auto;
+}
+
+@media (min-width: 320px) {
+	.container-fluid nav {
+	display: flex;
+        align-items: center;
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6, header, div, main, footer, nav, p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+	padding-top: 10px;
+	width: 150;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2rem;
+}
+
+.navbar-nav li {
+	padding-right: 20px;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: 'Play', sans-serif;
+	font-size: 1.1em !important;
+}
+
+.card-text li {
+	justify-content: center;
+	color: #3E4340;
+}
+
+.jumbotron {
+	margin-top: 20px;
+    background-image: url("..//img/workmen.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jumbotron #clock {
+	font-weight: 300;
+	font-size: 90px;
+	color:#FFFAD2 ;
+}
+
+#services {
+    text-align: center;
+}
+
+.motto {
+	display: flex;
+	background-color: black;
+	padding: 40px 0px 40px 0px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_btn {
+	display: flex;
+	justify-content: center;
+    margin: 0px 15px;
+	font-size: 30px;
+}
